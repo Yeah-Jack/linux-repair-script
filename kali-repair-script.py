@@ -85,6 +85,13 @@ def upgrade_fix_broken():
         print_highlight("Upgrading and fixing broken packages...")
         run_command("sudo apt-get upgrade -f")
         print_highlight("Upgrade and fix broken completed.")
+        
+def full_upgrade():
+    if ask_yes_no("Do you want to fully upgrade packages? This may take a while."):
+        print_highlight("Fully upgrading packages...")
+        run_command("sudo apt full-upgrade")
+        print_highlight("Full upgrade completed.")
+
 
 def configure_packages():
     if ask_yes_no("Do you want to configure unconfigured packages? This can be skipped if you ran sudo dpkg --configure -a in the first step. This may take some time."):
@@ -140,6 +147,7 @@ def main():
     fix_missing_packages()
     upgrade_fix_missing()
     upgrade_fix_broken()
+    full_upgrade()
     configure_packages()
     clean_system()
     check_disk()
