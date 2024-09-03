@@ -132,7 +132,7 @@ def regenerate_font_cache():
         print_highlight("Font cache regeneration completed.")
 
 def main():
-    print_highlight("Welcome to the Kali Linux Repair Script!")
+    print_highlight("Welcome to the Linux Repair Script!")
     print_highlight("This script will help you perform various system maintenance tasks.")
     print_highlight("Please note that some tasks may require a significant amount of time.")
     print(f"{YELLOW}                                                                                                                     _  __     _ _   ____                  _        ____            _       _   ")
@@ -155,7 +155,7 @@ def main():
     update_grub()
     regenerate_font_cache()
 
-    print_highlight("Kali Linux repair process completed.")
+    print_highlight("Linux repair process completed.")
 
 if __name__ == "__main__":
     if os.geteuid() != 0:
