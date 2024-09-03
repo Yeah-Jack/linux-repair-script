@@ -1,8 +1,8 @@
-# Kali Linux Repair Script
+# Linux Repair Script
 
 ## Overview
 
-This Kali Linux Repair Script is a comprehensive tool designed to automate various system maintenance and repair tasks for Kali Linux. It provides a user-friendly interface to perform common system upkeep operations, making it easier for both beginners and experienced users to maintain their Kali Linux installations.
+This Linux Repair Script is a comprehensive tool designed to automate various system maintenance and repair tasks for Linux. It provides a user-friendly interface to perform common system upkeep operations, making it easier for beginners and experienced users to maintain their Linux installations.
 
 ## Features
 
@@ -19,7 +19,7 @@ This Kali Linux Repair Script is a comprehensive tool designed to automate vario
 
 ## Requirements
 
-- Kali Linux operating system
+- Linux operating system
 - Python 3.x
 - Root privileges (sudo access)
 
@@ -28,14 +28,14 @@ This Kali Linux Repair Script is a comprehensive tool designed to automate vario
 1. Clone this repository or download the script file:
 
 ```bash
-git clone https://github.com/yourusername/kali-repair-script.git
-cd kali-repair-script
+git clone https://github.com/Yeah-Jack/Linux-Repair-Script
+cd linux-repair-script
 ```
 
 2. Make the script executable:
 
 ```bash
-chmod +x kali_repair_script.py
+chmod +x linux_repair_script.py
 ```
 
 ## Usage
@@ -43,14 +43,14 @@ chmod +x kali_repair_script.py
 Run the script with sudo privileges:
 
 ```bash
-sudo python3 kali_repair_script.py
+sudo python3 linux_repair_script.py
 ```
 
-Follow the on-screen prompts to perform various system maintenance tasks. The script will ask for confirmation before executing each task, allowing you to skip operations you don't want to perform.
+Follow the on-screen prompts to perform various system maintenance tasks. The script will ask for confirmation before executing each task, allowing you to skip operations you don't want to accomplish.
 
 ## Caution
 
-- This script performs system-level operations. While it's designed to be safe, it's always recommended to backup important data before running system maintenance tools.
+This script performs system-level operations. While it's designed to be safe, it's always recommended to back up important data before running system maintenance tools.
 - Some operations may take a considerable amount of time, especially on slower systems or with large amounts of data.
 - The filesystem repair function (`e2fsck`) is set to check `/dev/sda1` by default. You may need to modify this in the script if your system uses a different partition scheme.
 
