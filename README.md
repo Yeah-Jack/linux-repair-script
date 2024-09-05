@@ -1,3 +1,5 @@
+[![CodeFactor](https://www.codefactor.io/repository/github/yeah-jack/linux-repair-script/badge)](https://www.codefactor.io/repository/github/yeah-jack/linux-repair-script)
+
 # Linux Repair Script
 
 ## Overview
