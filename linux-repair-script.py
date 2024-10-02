@@ -43,9 +43,9 @@ def run_command(command):
 def ask_yes_no(question, default="yes"):
     while True:
         answer = input(f"{question} (Y/n): ").lower().strip()
-        if answer == "" or answer == "y" or answer == "yes":
+        if answer in ("", "y", "yes"):
             return True
-        elif answer == "n" or answer == "no":
+        elif answer in ("n", "no"):
             return False
         print("Please enter 'y' or 'n', or press Enter for the default.")
 
