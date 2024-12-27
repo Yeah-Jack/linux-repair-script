@@ -1,6 +1,7 @@
-[![CodeFactor](https://www.codefactor.io/repository/github/yeah-jack/linux-repair-script/badge)](https://www.codefactor.io/repository/github/yeah-jack/linux-repair-script)
-
 # Linux Repair Script
+
+[![DeepSource](https://app.deepsource.com/gh/Yeah-Jack/linux-repair-script.svg/?label=active+issues&show_trend=true&token=BsWVHxHtNGZV40LyyZKWLa8p)](https://app.deepsource.com/gh/Yeah-Jack/linux-repair-script/)
+[![CodeFactor](https://www.codefactor.io/repository/github/yeah-jack/linux-repair-script/badge)](https://www.codefactor.io/repository/github/yeah-jack/linux-repair-script)
 
 ## Overview
 
